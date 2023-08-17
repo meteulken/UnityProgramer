@@ -1,10 +1,11 @@
+using System.Security.Cryptography.X509Certificates;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 5.0f;
+    public float speed = 5.0f;
     private float turnSpeed = 25.0f;
     private float horizontalInput;
     private float forwadInput;
