@@ -28,3 +28,6 @@ Nesneye belirli bir kuvveti uygular. Fizik tabanlı hareket ve etkileşimler iç
 
 Nesneye doğrudan bir hız vektörü atar. Fizik tabanlı hareket ve etkileşimlerde kullanışlıdır.
 
+## 6. `transform.position = new Vector3(xRange, transform.position.y, transform.position.z);`
+
+Bu kod parçası, bir nesnenin X koordinatını değiştirirken diğer iki koordinatını değiştirmeksizin nesnenin pozisyonunu güncellemek için kullanılır.
