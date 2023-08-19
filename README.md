@@ -64,3 +64,18 @@ Fare tıklamalarını kontrol etmek için kullanılır. `GetMouseButtonDown`, fa
 Farenin mevcut pozisyonunu döndürür. Bu değeri kullanarak fare pozisyonuna göre işlemler yapabilirsiniz.
 
 Bu sadece bazı örneklerdir. Unity'nin belgelemesinde daha fazla `Input` fonksiyonunu ve detayını bulabilirsiniz. `Input` sınıfı, oyuncu girişini algılamanız ve oyununuzu interaktif hale getirmeniz için oldukça önemlidir.
+
+---
+
+# Unity'de `Instantiate` Fonksiyonu Kullanımı
+
+`Instantiate` fonksiyonu, Unity'de nesnelerin kopyalarını oluşturmak için kullanılır. Genellikle prefab'ların (ön tanımlı nesne şablonları) sahneye yerleştirilmesi veya çoğaltılması gerektiğinde kullanılır.
+
+## Kullanım
+
+```csharp
+GameObject newObject = Instantiate(prefab, position, rotation);
+
+prefab: Kopyalanacak nesnenin prefab'ı.
+position: Oluşturulan kopyanın konumu.
+rotation: Oluşturulan kopyanın rotasyonu.
