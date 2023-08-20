@@ -12,7 +12,7 @@ public class DestroyOutOfBounds : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // Update is called once per frame  // -20 > -21
     void Update()
     {
         if(transform.position.z > topBound)

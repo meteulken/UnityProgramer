@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 441440}
   - component: {fileID: 9543762}
   - component: {fileID: 5873445642578286159}
-  - component: {fileID: 3972386314541111068}
+  - component: {fileID: 6811323833283120160}
   m_Layer: 0
   m_Name: Animal_Fox_01
   m_TagString: Untagged
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!114 &3972386314541111068
+--- !u!114 &6811323833283120160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
